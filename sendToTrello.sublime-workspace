@@ -1,0 +1,387 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sort",
+				"sorted_positions"
+			],
+			[
+				"W",
+				"Write-Host"
+			],
+			[
+				"score",
+				"score_file"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"c",
+				"cipher"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"get",
+				"getSpeaker"
+			],
+			[
+				"cr",
+				"cursor"
+			],
+			[
+				"add",
+				"addObjectToRow"
+			],
+			[
+				"ph",
+				"phone"
+			],
+			[
+				"nm",
+				"name"
+			],
+			[
+				"load",
+				"loadAll"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"curo",
+				"cursor"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"settings":
+			{
+				"buffer_size": 2331,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"PCLP",
+				"Package Control: List Packages"
+			],
+			[
+				"PAckage controll 	",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: l",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 299.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"minify_to_filw",
+			"minify"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/css/frontend-campusmvp.sublime-project",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/Recursos Relacionados.xlsx",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Otros/Modulo - Introducción/guion_video",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Otros/Modulo - Introducción/Breve_Introduccion.htm",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Otros/campusMVP-patronContenidos/campusMVP-patronContenidos/Modulo/Recursos Relacionados.xlsx",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Otros/campusMVP-patronContenidos/campusMVP-patronContenidos/css/curso.css",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/Breve_Introduccion.htm",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/css/curso.css",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Temarios.docx",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/MÓDULOS.txt",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/.dropbox",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.subl120.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.subl23b.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.sublff5.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.sublf96.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.suble87.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.suble1f.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.subld06.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.sublb36.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.sublb25.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.subl60d.tmp",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.subl30a.tmp",
+		"/C/Users/Roberto/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Roberto/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/guion_video.txt",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/Introduccion_sublime.htm",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/.subl1bb.tmp",
+		"/C/Users/Roberto/Dropbox/Videos/2014 - Diciembre - vNext/DEMO 3.txt",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Introduccion/guion_sublime.txt",
+		"/C/Users/Roberto/Dropbox/Videos/2014 - Diciembre - vNext/DEMO 1.txt",
+		"/C/Users/Roberto/Dropbox/Videos/2014 - Diciembre - vNext/DEMO 2.txt",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 12 Front-end JS frontiers/script.md",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Modulo - Introducción/Breve_Introduccion.htm",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Modulo - Introducción/guion_video",
+		"/C/Users/Roberto/Dropbox/Cursos/2014-Frontend-CampusMVP/Modulo - Introducción/Reaprovechando_lo_que_ya_sabes.htm",
+		"/C/Users/Roberto/Dropbox/Videos/2014 - Diciembre - vNext/Script.txt",
+		"/C/Users/Roberto/Documents/Visual Studio 2013/Projects/Craftmanship082014/Craftmanship082014/UppercaseFinder.cs",
+		"/C/Users/Roberto/Documents/Visual Studio 2013/Projects/Craftmanship082014/Craftmanship082014.Tests/TestWithRestrictions.cs",
+		"/C/Users/Roberto/Documents/Visual Studio 2013/Projects/Craftmanship082014/Craftmanship082014.Tests/SearchUppercaseTextTest.cs",
+		"/C/Users/Roberto/datascience/assignment1/twitterstream.py",
+		"/C/Users/Roberto/datascience_ana/assignment1/twitterstream.py",
+		"/C/Users/Roberto/datascience_ana/assignment1/problem_1_submission.txt",
+		"/C/Users/Roberto/datascience_ana/assignment1/tweet_sentiment.py",
+		"/C/Users/Roberto/datascience_ana/assignment1/term_sentiment.py",
+		"/C/Users/Roberto/datascience_ana/assignment1/frequency.py",
+		"/C/Users/Roberto/datascience_ana/assignment1/top_ten.py",
+		"/C/Users/Roberto/datascience/assignment1/frequency.py",
+		"/C/Users/Roberto/datascience/assignment1/top_ten.py",
+		"/C/Users/Roberto/datascience/assignment1/term_sentiment.py",
+		"/C/Users/Roberto/datascience/assignment1/tweet_sentiment.py",
+		"/C/Users/Roberto/kvm/src/kvm.ps1",
+		"/C/Users/Roberto/datascience/assignment1/removeBOM.ps1",
+		"/C/Users/Roberto/datascience/assignment1/problem_1_submission.txt",
+		"/C/Users/Roberto/Dropbox/Proyectos/datasci_course_materials/assignment1/twitterstream.py",
+		"/C/Users/Roberto/Dropbox/Proyectos/rlbisbe.github.io/karmacracy/index.markdown",
+		"/C/Users/Roberto/Dropbox/Proyectos/rlbisbe.github.io/karmacracy/privacidad.markdown",
+		"/C/Users/Roberto/Dropbox/Personal/cv/originals/icineticradarc.txt",
+		"/C/Users/Roberto/Downloads/mitm/mitm/server.js",
+		"/C/Users/Roberto/Dropbox/Proyectos/TuentiChallenge14/TuentiChallenge/TuentiChallenge_Round11/decryptor.js",
+		"/C/Users/Roberto/Dropbox/Proyectos/TuentiChallenge14/TuentiChallenge/TuentiChallenge_Round11/10723.timestamp",
+		"/C/Users/Roberto/Dropbox/Proyectos/TuentiChallenge14/TuentiChallenge/TuentiChallenge_Round10/bin/Debug/output.txt",
+		"/C/Users/Roberto/Downloads/mitm/mitm/mitm.js",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1_1/index.html",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/Preferences.sublime-settings",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1_2/js/app.js",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1/index.html",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1_1/manifest.webapp",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1_1/platform.js",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1_2/manifest.webapp",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1_1/db.js",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app2/js/app.js",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app3/index.html",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1_2/index.html",
+		"/C/Users/Roberto/Dropbox/Charlas/2014 04 Firefox Gusenet/app1_1/jquery.min.js",
+		"/C/Users/Roberto/Documents/Visual Studio 2013/Projects/Karmacracy/Karmacracy/javascript_api/README.md",
+		"/C/Users/Roberto/Documents/Visual Studio 2013/Projects/Karmacracy/Karmacracy/javascript_api/karmacracy.min.js",
+		"/C/Users/Roberto/Documents/Visual Studio 2013/Projects/Karmacracy/Karmacracy/javascript_api/karmacracy.js",
+		"/C/Users/Roberto/Documents/Visual Studio 2013/Projects/Karmacracy/Karmacracy/javascript_api/karmacracy.min_1.js",
+		"/C/Users/Roberto/Dropbox/Proyectos/rlbisbe.github.io/_drafts/migrando-de-wordpress-a-jekyll.markdown",
+		"/C/Users/Roberto/Desktop/salamanca-2211/demo2",
+		"/C/Users/Roberto/Dropbox/Proyectos/rlbisbe.github.io/_posts/2013-11-20-angular-js-para-aplicaciones-windows-store-primeras-impresiones.markdown",
+		"/C/Users/Roberto/Dropbox/Proyectos/rlbisbe.github.io/_posts/2013-11-20-angular-js-for-windows-store-apps-first-look.markdown",
+		"/C/Users/Roberto/Dropbox/Proyectos/rlbisbe.github.io/_layouts/default.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Todos",
+			"todos",
+			"encontrar",
+			"Peculiaridades",
+			"Menú",
+			"Distraction",
+			"\n	",
+			"amet",
+			"coordinates",
+			"coordinates ",
+			"Change-Path",
+			");\n",
+			"f4",
+			"', ",
+			"headers",
+			"toolbar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2331,
+								2331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sendToTrello.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Introduccion\\Breve_Introduccion.htm"
+			],
+			[
+				"curso",
+				"2014-Frontend-CampusMVP\\css\\curso.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

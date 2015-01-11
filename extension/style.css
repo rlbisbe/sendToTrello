@@ -5,3 +5,13 @@ body{
 .container{
 	margin-bottom: 20px;
 }
+
+.loggedOut{
+	margin: 20px 0;
+	display: none;
+}
+
+#newNote{
+	margin: 20px 0;
+	display: none;
+}
